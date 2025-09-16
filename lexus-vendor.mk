@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/lexus
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/lexus/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
     vendor/oneplus/lexus/proprietary/odm/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Audio_Parameter_Version.txt \
     vendor/oneplus/lexus/proprietary/odm/etc/acdbdata/FTM/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/FTM/acdb_cal.acdb \
     vendor/oneplus/lexus/proprietary/odm/etc/acdbdata/FTM/workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/FTM/workspaceFileXml.qwsp \
@@ -766,6 +767,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/odm/etc/charge.cfg:$(TARGET_COPY_OUT_ODM)/etc/charge.cfg \
     vendor/oneplus/lexus/proprietary/odm/etc/dolby/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/display/dolby_vision.cfg \
     vendor/oneplus/lexus/proprietary/odm/etc/dolby/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/dolby_vision.cfg \
+    vendor/oneplus/lexus/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/lexus/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/lexus/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V8-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V8-service.rc \
     vendor/oneplus/lexus/proprietary/odm/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_dolby_vision.xml \
@@ -1267,6 +1269,7 @@ PRODUCT_PACKAGES += \
     libGCore4Cell_32E2 \
     libRGBC \
     libSonyIMX471RmscLibrary \
+    libaacvibrator \
     libaidenoiser \
     libaidenoiserv2 \
     libarcsoft_triple_sat_vendor \
@@ -1302,7 +1305,6 @@ PRODUCT_PACKAGES += \
     libhdr_stub \
     libhme \
     libhwconfigurationutil_vendor \
-    libhwcsensor \
     libipebpsstriping \
     libipebpsstriping170 \
     libipebpsstriping480 \
@@ -1322,11 +1324,9 @@ PRODUCT_PACKAGES += \
     libmmcamera_mfnr_t4 \
     libmmcamera_pdpc \
     libmmcamera_pnc \
-    libnanopb \
     libopencv \
     libopencv3a \
     libopestriping \
-    libos \
     libqll \
     libqll10 \
     libqllengine \
@@ -1336,9 +1336,7 @@ PRODUCT_PACKAGES += \
     libsgutils2 \
     libspectre \
     libswregistrationalgo \
-    libsynx \
     libtfestriping \
-    libthreadutils \
     libtriplecam_optical_zoom_control_vendor \
     libtriplecam_video_optical_zoom_vendor \
     libubifocus \
@@ -1426,14 +1424,9 @@ PRODUCT_PACKAGES += \
     libaecCustom \
     libaecCustomParamParser \
     libafCustomParamParser \
-    libaiboost \
-    libaiboost_qnn_external_delegate_te \
-    libaiboost_te \
-    libaideblur \
     libaisal \
     libaisd \
     libaiseg \
-    libaisr \
     libalCFR \
     libancbase_rt_fusion \
     libancbase_segbase \
@@ -1535,8 +1528,10 @@ PRODUCT_PACKAGES += \
     manifest_oplus_camera_rfi.xml \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_charger_aidl.xml \
+    manifest_oplus_fingerprint_aidl_v3.xml \
     manifest_oplus_sendextcamcmd.xml \
     vendor.qti.camera.provider-service_64 \
+    vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff \
     vendor.oplus.hardware.cammidasservice-V1-service \
     vendor.oplus.hardware.charger-V8-service \
     wlschgd
