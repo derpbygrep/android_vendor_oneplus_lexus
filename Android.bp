@@ -9487,6 +9487,506 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libQ6MSFR_manager_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libQ6MSFR_manager_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libVppAisQnnHtp",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libVppAisQnnHtp.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libVppFrcQnnHtp",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libVppFrcQnnHtp.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libapn_dsp_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libapn_dsp_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbitml_nsp_73nb_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libbitml_nsp_73nb_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbitml_nsp_75na_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libbitml_nsp_75na_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdpp_engine_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libdpp_engine_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdspCV_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libdspCV_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libevadsp",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libevadsp.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libfastcvadsp",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libfastcvadsp.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libfastcvdsp_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libfastcvdsp_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhdr_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libhdr_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhme_dsp_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libhme_dsp_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmobilenet_dsp_frc",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libmobilenet_dsp_frc.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmobilenet_dsp_frc_networks",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libmobilenet_dsp_frc_networks.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libnsp_ipc_cdsp_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libnsp_ipc_cdsp_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libosie_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libosie_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libqsegnetengine_dsp_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libqsegnetengine_dsp_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libscveT2T_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libscveT2T_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvpp_ais",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libvpp_ais.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvpp_ais_networks",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libvpp_ais_networks.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvpp_frc",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libvpp_frc.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvpp_svc_skel",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libvpp_svc_skel.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvpp_vqa_networks",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libvpp_vqa_networks.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libworker_pool",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/rfs/dsp/libworker_pool.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    relative_install_path: "rfs/dsp",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.camera.aon-V1-ndk_platform",
     owner: "oneplus",
     strip: {
@@ -9822,6 +10322,150 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "chre_qsh_shim",
+    filename: "chre_qsh_shim.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/chre_qsh_shim.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libDspIOProxy_skel",
+    filename: "libDspIOProxy_skel.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/libDspIOProxy_skel.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libadsp_jpege_skel",
+    filename: "libadsp_jpege_skel.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libbitml_nsp_skel",
+    filename: "libbitml_nsp_skel.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_skel.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libdsp_streamer_binning",
+    filename: "libdsp_streamer_binning.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_binning.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libdsp_streamer_qvrcam_receiver",
+    filename: "libdsp_streamer_qvrcam_receiver.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libeye_tracking_dsp_sample_skel",
+    filename: "libeye_tracking_dsp_sample_skel.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libhalide_hexagon_remote_skel",
+    filename: "libhalide_hexagon_remote_skel.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/libhalide_hexagon_remote_skel.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libmctfengine_skel",
+    filename: "libmctfengine_skel.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/libmctfengine_skel.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libmlawbpostproc_dsp_skel",
+    filename: "libmlawbpostproc_dsp_skel.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/libmlawbpostproc_dsp_skel.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libqvr_3dof_tracker_skel",
+    filename: "libqvr_3dof_tracker_skel.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/libqvr_3dof_tracker_skel.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libqvr_cam_dsp_driver_skel",
+    filename: "libqvr_cam_dsp_driver_skel.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libqvr_dsp_driver_skel",
+    filename: "libqvr_dsp_driver_skel.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/libqvr_dsp_driver_skel.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libtracker_6dof_skel_8450",
+    filename: "libtracker_6dof_skel_8450.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/libtracker_6dof_skel_8450.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "nearby.napp_header",
+    filename: "nearby.napp_header",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/nearby.napp_header",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "nearby",
+    filename: "nearby.so",
+    owner: "oneplus",
+    src: "proprietary/vendor/lib/rfsa/adsp/nearby.so",
+    relative_install_path: "adsp",
     soc_specific: true,
 }
 
@@ -14429,6 +15073,159 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libQnnHtpV75Skel.unsigned.aiboost",
+    filename: "libQnnHtpV75Skel.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/aiboost/unsigned/libQnnHtpV75Skel.so",
+    relative_install_path: "adsp/aiboost/unsigned",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libCalculator_skel",
+    filename: "libCalculator_skel.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libCalculator_skel.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libQnnHtpV73",
+    filename: "libQnnHtpV73.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libQnnHtpV73.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libQnnHtpV73Skel",
+    filename: "libQnnHtpV73Skel.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libQnnHtpV73Skel.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libQnnSaver",
+    filename: "libQnnSaver.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libQnnSaver.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libSnpeHtpV73Skel",
+    filename: "libSnpeHtpV73Skel.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libSnpeHtpV73Skel.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libSuperRawPost_skel",
+    filename: "libSuperRawPost_skel.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libSuperRawPost_skel.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libaisr_skel",
+    filename: "libaisr_skel.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libaisr_skel.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libarc_gk_pt_hvx_skel",
+    filename: "libarc_gk_pt_hvx_skel.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libarc_htp_driver_skel",
+    filename: "libarc_htp_driver_skel.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libarc_htp_driver_skel.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libcalculator_skel",
+    filename: "libcalculator_skel.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libcalculator_skel.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libhvxFaceBeautyPre_skel",
+    filename: "libhvxFaceBeautyPre_skel.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libhvxFaceBeautyPre_skel.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libktveffect",
+    filename: "libktveffect.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libktveffect.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libtfadsp_sb5_5_rx",
+    filename: "libtfadsp_sb5_5_rx.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libtfadsp_sb5_5_rx.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libtfadsp_sb5_5_tx",
+    filename: "libtfadsp_sb5_5_tx.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libtfadsp_sb5_5_tx.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libvdblurless_5.0.2_skel",
+    filename: "libvdblurless_5.0.2_skel.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libvdblurless_5.0.2_skel.so",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libvdsuperphoto_skel",
+    filename: "libvdsuperphoto_skel.so",
+    owner: "oneplus",
+    src: "proprietary/odm/lib/rfsa/adsp/libvdsuperphoto_skel.so",
+    relative_install_path: "adsp",
     device_specific: true,
 }
 

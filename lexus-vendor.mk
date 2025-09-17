@@ -1341,6 +1341,31 @@ PRODUCT_PACKAGES += \
     libtriplecam_video_optical_zoom_vendor \
     libubifocus \
     libvideoml \
+    libQ6MSFR_manager_skel \
+    libVppAisQnnHtp \
+    libVppFrcQnnHtp \
+    libapn_dsp_skel \
+    libbitml_nsp_73nb_skel \
+    libbitml_nsp_75na_skel \
+    libdpp_engine_skel \
+    libdspCV_skel \
+    libevadsp \
+    libfastcvadsp \
+    libfastcvdsp_skel \
+    libhdr_skel \
+    libhme_dsp_skel \
+    libmobilenet_dsp_frc \
+    libmobilenet_dsp_frc_networks \
+    libnsp_ipc_cdsp_skel \
+    libosie_skel \
+    libqsegnetengine_dsp_skel \
+    libscveT2T_skel \
+    libvpp_ais \
+    libvpp_ais_networks \
+    libvpp_frc \
+    libvpp_svc_skel \
+    libvpp_vqa_networks \
+    libworker_pool \
     vendor.oplus.hardware.camera.aon-V1-ndk_platform \
     vendor.oplus.hardware.camera.aon-service-impl \
     vendor.oplus.hardware.camera_rfi-V1-ndk_vendor \
@@ -1350,6 +1375,22 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
+    chre_qsh_shim \
+    libDspIOProxy_skel \
+    libadsp_jpege_skel \
+    libbitml_nsp_skel \
+    libdsp_streamer_binning \
+    libdsp_streamer_qvrcam_receiver \
+    libeye_tracking_dsp_sample_skel \
+    libhalide_hexagon_remote_skel \
+    libmctfengine_skel \
+    libmlawbpostproc_dsp_skel \
+    libqvr_3dof_tracker_skel \
+    libqvr_cam_dsp_driver_skel \
+    libqvr_dsp_driver_skel \
+    libtracker_6dof_skel_8450 \
+    nearby.napp_header \
+    nearby \
     com.qti.sensor.lexusfront \
     com.qti.sensor.lexusmain \
     com.qti.sensor.lexuswide \
@@ -1521,6 +1562,23 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cammidasservice-V1-ndk \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
+    libQnnHtpV75Skel.unsigned.aiboost \
+    libCalculator_skel \
+    libQnnHtpV73 \
+    libQnnHtpV73Skel \
+    libQnnSaver \
+    libSnpeHtpV73Skel \
+    libSuperRawPost_skel \
+    libaisr_skel \
+    libarc_gk_pt_hvx_skel \
+    libarc_htp_driver_skel \
+    libcalculator_skel \
+    libhvxFaceBeautyPre_skel \
+    libktveffect \
+    libtfadsp_sb5_5_rx \
+    libtfadsp_sb5_5_tx \
+    libvdblurless_5.0.2_skel \
+    libvdsuperphoto_skel \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.postproc-impl.xml \
