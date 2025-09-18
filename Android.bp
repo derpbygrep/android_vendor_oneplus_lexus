@@ -11318,7 +11318,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
@@ -11598,7 +11597,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
@@ -11728,7 +11726,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
@@ -13519,7 +13516,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     device_specific: true,
 }
@@ -15108,15 +15104,6 @@ prebuilt_rfsa {
     filename: "libQnnHtpV73Skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libQnnHtpV73Skel.so",
-    relative_install_path: "adsp",
-    device_specific: true,
-}
-
-prebuilt_rfsa {
-    name: "libQnnSaver",
-    filename: "libQnnSaver.so",
-    owner: "oneplus",
-    src: "proprietary/odm/lib/rfsa/adsp/libQnnSaver.so",
     relative_install_path: "adsp",
     device_specific: true,
 }

@@ -1566,7 +1566,6 @@ PRODUCT_PACKAGES += \
     libCalculator_skel \
     libQnnHtpV73 \
     libQnnHtpV73Skel \
-    libQnnSaver \
     libSnpeHtpV73Skel \
     libSuperRawPost_skel \
     libaisr_skel \
