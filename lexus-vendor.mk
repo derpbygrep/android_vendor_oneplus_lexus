@@ -767,9 +767,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/odm/etc/charge.cfg:$(TARGET_COPY_OUT_ODM)/etc/charge.cfg \
     vendor/oneplus/lexus/proprietary/odm/etc/dolby/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/display/dolby_vision.cfg \
     vendor/oneplus/lexus/proprietary/odm/etc/dolby/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/dolby_vision.cfg \
-    vendor/oneplus/lexus/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/oneplus/lexus/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
     vendor/oneplus/lexus/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/lexus/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V8-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V8-service.rc \
+    vendor/oneplus/lexus/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
     vendor/oneplus/lexus/proprietary/odm/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_dolby_vision.xml \
     vendor/oneplus/lexus/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     vendor/oneplus/lexus/proprietary/odm/etc/resourcemanager.xml:$(TARGET_COPY_OUT_ODM)/etc/resourcemanager.xml \
@@ -858,13 +859,28 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/odm/lib64/camera/libafCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParam_Cam2.bin \
     vendor/oneplus/lexus/proprietary/odm/lib64/camera/libpdCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam0.bin \
     vendor/oneplus/lexus/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
+    vendor/oneplus/lexus/proprietary/vendor/etc/2024-01-12_platform_RSA_license_a226ad89-a187-4b14-9447-d20bfe9dac1a.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/2024-01-12_platform_RSA_license_a226ad89-a187-4b14-9447-d20bfe9dac1a.pfm \
     vendor/oneplus/lexus/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/display/DPU1010.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1010.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/display/DPU1020.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1020.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/display/DPU10__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU10__.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/display/DPU870.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU870.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/display/DPU9__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU9__.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/display/perf_hint_threshold.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/perf_hint_threshold.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
+    vendor/oneplus/lexus/proprietary/vendor/etc/init/feature_enabler_client.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/feature_enabler_client.rc \
+    vendor/oneplus/lexus/proprietary/vendor/etc/init/init.qti.graphics.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.graphics.rc \
+    vendor/oneplus/lexus/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/oneplus/lexus/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
+    vendor/oneplus/lexus/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
     vendor/oneplus/lexus/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/oneplus/lexus/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oneplus/lexus/proprietary/vendor/etc/ltm_config_AA545_P_3_A0005_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA545_P_3_A0005_dsc_cmd_mode_panel.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/ltm_config_AC090_P_3_A0005_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AC090_P_3_A0005_dsc_cmd_mode_panel.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm \
     vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_bu52053nvx_0.json \
     vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_default_sensors.json \
     vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_dynamic_sensors.json \
@@ -888,6 +904,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_vertigo_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_vertigo_lsm6dso_0.json \
     vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_vertigo_lsm6dso_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_vertigo_lsm6dso_1.json \
     vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_vertigo_mmc56x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_vertigo_mmc56x3x_0.json \
+    vendor/oneplus/lexus/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/oneplus/lexus/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
     vendor/oneplus/lexus/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
@@ -914,6 +931,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/vendor/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mbn \
     vendor/oneplus/lexus/proprietary/vendor/firmware/CAMERA_ICP.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mdt \
     vendor/oneplus/lexus/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
+    vendor/oneplus/lexus/proprietary/vendor/firmware/dpAP_full.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpAP_full.mbn \
+    vendor/oneplus/lexus/proprietary/vendor/firmware/dpAP_mini.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpAP_mini.mbn \
+    vendor/oneplus/lexus/proprietary/vendor/firmware/dpAP_modemssr.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpAP_modemssr.mbn \
+    vendor/oneplus/lexus/proprietary/vendor/firmware/dpMSA.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpMSA.mbn \
     vendor/oneplus/lexus/proprietary/vendor/firmware/evass-lt.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b00 \
     vendor/oneplus/lexus/proprietary/vendor/firmware/evass-lt.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b01 \
     vendor/oneplus/lexus/proprietary/vendor/firmware/evass-lt.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b02 \
@@ -1267,6 +1288,7 @@ PRODUCT_PACKAGES += \
     com.qti.chi.offline \
     com.qti.chi.override \
     libGCore4Cell_32E2 \
+    libPanelChaplin \
     libRGBC \
     libSonyIMX471RmscLibrary \
     libaacvibrator \
@@ -1274,6 +1296,7 @@ PRODUCT_PACKAGES += \
     libaidenoiserv2 \
     libarcsoft_triple_sat_vendor \
     libarcsoft_triple_zoomtranslator_vendor \
+    libbacklight-calib \
     libbitmlengine \
     libbitmlenginev2 \
     libcamerapostproc \
@@ -1293,18 +1316,39 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libchifeature2 \
     libchilog \
+    libclstc_algorithm_adapter \
+    libclstc_gcp_adapter \
+    libclstc_tm \
     libcolor-default \
     libcom.qti.chinodeutils \
     libcommonchiutils \
+    libcwb_qcom_aidl \
     libdepthcomputation \
+    libdigital-dimming \
+    libdisp-aba \
+    libdisplayconfig.qti \
+    libdisplayqos \
+    libdisplayskuutils \
+    libdpp_manager \
+    libdpps \
     libdualcam_optical_zoom_control_vendor \
     libdualcam_video_optical_zoom_vendor \
     libeepromcutter \
     libfeutils \
+    libgame_enhance \
+    libgralloccore \
     libhdr10plus \
+    libhdr_backlight_adapter \
     libhdr_stub \
+    libhdr_tm \
+    libhdrdynamic \
+    libhdrdynamicootf \
+    libhdrvivid \
+    libhistogram \
     libhme \
     libhwconfigurationutil_vendor \
+    libhwcsensor \
+    libintervmipc \
     libipebpsstriping \
     libipebpsstriping170 \
     libipebpsstriping480 \
@@ -1313,6 +1357,7 @@ PRODUCT_PACKAGES += \
     libjni_imageutil \
     libjpege \
     libmctfengine_stub \
+    libmemutils \
     libmfGhostDetection \
     libmfec \
     libmidasserviceintf \
@@ -1327,20 +1372,43 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopencv3a \
     libopestriping \
+    libpwirisfeature_vendor \
+    libpwirishal \
+    libpwirishalwrapper_vendor \
+    libqdcm-algo \
+    libqdcm-json-mode-parser \
+    libqdcm-mode-parser \
+    libqdutils \
     libqll \
     libqll10 \
     libqllengine \
+    libqrtrclient \
+    libqseed3 \
     libqsegnet \
     libqshcamera \
+    librcmask \
+    libsdedrm \
+    libsdm-color \
+    libsdm-colormgr-algo \
+    libsdm-disp-vndapis \
+    libsdmcore \
+    libsdmdal \
+    libsdmextension \
+    libsdmutils \
     libsfeShiftExtrapolation \
     libsgutils2 \
+    libsnapdragoncolor-manager \
+    libsnapdragoncolor-qdcm \
     libspectre \
     libswregistrationalgo \
+    libtestutils \
     libtfestriping \
+    libtinyxml2_1 \
     libtriplecam_optical_zoom_control_vendor \
     libtriplecam_video_optical_zoom_vendor \
     libubifocus \
     libvideoml \
+    libvmfilexfer \
     libQ6MSFR_manager_skel \
     libVppAisQnnHtp \
     libVppFrcQnnHtp \
@@ -1366,15 +1434,35 @@ PRODUCT_PACKAGES += \
     libvpp_svc_skel \
     libvpp_vqa_networks \
     libworker_pool \
+    sensors.qsh \
+    vendor.display.color@1.0 \
+    vendor.display.color@1.1 \
+    vendor.display.color@1.2 \
+    vendor.display.color@1.3 \
+    vendor.display.color@1.4 \
+    vendor.display.color@1.5 \
+    vendor.display.postproc@1.0 \
     vendor.oplus.hardware.camera.aon-V1-ndk_platform \
     vendor.oplus.hardware.camera.aon-service-impl \
     vendor.oplus.hardware.camera_rfi-V1-ndk_vendor \
     vendor.oplus.hardware.cammidasservice-V1-ndk_vendor \
     vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.oplus.hardware.commondcs-V1-ndk_platform \
+    vendor.oplus.hardware.cwb-V1-ndk \
+    vendor.oplus.hardware.cwb@1.0 \
+    vendor.oplus.hardware.displaycolorfeature-V1-ndk_vendor \
+    vendor.oplus.hardware.displaypanelfeature-V1-ndk_vendor \
+    vendor.pixelworks.hardware.display-V2-ndk \
+    vendor.pixelworks.hardware.display@1.0_vendor \
+    vendor.pixelworks.hardware.display@1.1_vendor \
+    vendor.pixelworks.hardware.display@1.2_vendor \
+    vendor.pixelworks.hardware.feature-V1-ndk \
+    vendor.pixelworks.hardware.feature@1.0_vendor \
+    vendor.pixelworks.hardware.feature@1.1_vendor \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
+    vendor.qti.hardware.qdutils_disp@1.0 \
     chre_qsh_shim \
     libDspIOProxy_skel \
     libadsp_jpege_skel \
@@ -1515,7 +1603,9 @@ PRODUCT_PACKAGES += \
     libcalculator_htp \
     libcreatebin \
     libcvface_api \
+    libdisplayaidlapis \
     libdolbyclstc \
+    libdpaservice \
     libeffect_custom \
     libexif-jpeg-aps \
     libextendfile \
@@ -1535,6 +1625,8 @@ PRODUCT_PACKAGES += \
     libpdCustomParamParser \
     libpngwrapper \
     libportrait_repair_ppl3_ocl \
+    libpwirisfeature \
+    libpwirishalwrapper \
     libqsh.utils \
     libremosaic_wrapper \
     libroi \
@@ -1560,8 +1652,14 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.camera_rfi-V1-ndk \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
     vendor.oplus.hardware.cammidasservice-V1-ndk \
+    vendor.oplus.hardware.displaypanelfeature-V1-ndk_odm \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
+    vendor.pixelworks.hardware.display@1.0 \
+    vendor.pixelworks.hardware.display@1.1 \
+    vendor.pixelworks.hardware.display@1.2 \
+    vendor.pixelworks.hardware.feature@1.0 \
+    vendor.pixelworks.hardware.feature@1.1 \
     libQnnHtpV75Skel.unsigned.aiboost \
     libCalculator_skel \
     libQnnHtpV73 \
@@ -1585,10 +1683,19 @@ PRODUCT_PACKAGES += \
     manifest_oplus_camera_rfi.xml \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_charger_aidl.xml \
-    manifest_oplus_fingerprint_aidl_v3.xml \
+    manifest_oplus_cwb_aidl.xml \
+    manifest_oplus_displaypanelfeature_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
+    feature_enabler_client \
     vendor.qti.camera.provider-service_64 \
-    vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff \
+    vendor.qti.hardware.display.color-service \
+    vendor.qti.hardware.display.composer-service \
+    init.qti.graphics \
+    ppd \
+    qdcmss \
+    cwb_utils_aidl \
+    displaypanelfeatureTest \
     vendor.oplus.hardware.cammidasservice-V1-service \
     vendor.oplus.hardware.charger-V8-service \
+    vendor.oplus.hardware.displaypanelfeature-service \
     wlschgd
