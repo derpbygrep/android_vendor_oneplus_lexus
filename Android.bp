@@ -9795,7 +9795,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libpwirisfeature.so",
             ],
             shared_libs: [
-                "vendor.pixelworks.hardware.feature-V1-ndk_vendor",
+                "vendor.pixelworks.hardware.feature-V1-ndk",
                 "liblog",
                 "libutils",
                 "libcutils",
