@@ -1322,6 +1322,7 @@ PRODUCT_PACKAGES += \
     libcolor-default \
     libcom.qti.chinodeutils \
     libcommonchiutils \
+    libcwb_client_vendor \
     libcwb_qcom_aidl \
     libdepthcomputation \
     libdigital-dimming \
