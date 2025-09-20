@@ -9831,7 +9831,7 @@ cc_prebuilt_library_shared {
                 "libbase",
                 "libbinder_ndk",
                 "android.hardware.common-V2-ndk",
-                "vendor.pixelworks.hardware.display-V2-ndk_vendor",
+                "vendor.pixelworks.hardware.display-V2-ndk",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -9864,7 +9864,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libpwirishalwrapper.so",
             ],
             shared_libs: [
-                "vendor.pixelworks.hardware.display-V2-ndk_vendor",
+                "vendor.pixelworks.hardware.display-V2-ndk",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -17270,6 +17270,31 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/odm/lib64/vendor.oplus.hardware.sendextcamcmd-V2-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.oplus.hardware.urcc-V1-ndk",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/vendor.oplus.hardware.urcc-V1-ndk.so",
             ],
             shared_libs: [
                 "libbinder_ndk",
