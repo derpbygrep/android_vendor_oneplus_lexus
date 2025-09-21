@@ -1562,7 +1562,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cammidasservice-V1-ndk \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
-    vendor.oplus.hardware.urcc-V1-ndk \
     libQnnHtpV75Skel.unsigned.aiboost \
     libCalculator_skel \
     libQnnHtpV73 \
